@@ -1,0 +1,19 @@
+h1
+{
+  width:45%;
+  font-size: 40px !important;
+}
+
+button:hover{color:rgb(238, 17, 146);}
+canvas
+{
+  border-color: black;
+  animation-name: filter_colour;
+  animation-duration:4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes filter_colour
+{
+   from{box-shadow:1px 1px 30px rgb(238, 17, 146)} to {box-shadow:1px 1px 30px rgb(27, 223, 197)};
+}
